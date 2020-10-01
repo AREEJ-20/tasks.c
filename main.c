@@ -96,6 +96,9 @@ void main()
   }
   case 6:
   {
+    char a[] = "Hactober is here"; 
+   reverse(a); 
+   return 0; 
     break;
   }
   case 7:
