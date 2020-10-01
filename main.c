@@ -206,6 +206,9 @@ void main()
   }
   case 17:
   {
+    int n = 5, r = 3; 
+    printf("%d ",nCr(n, r)); 
+    return 0; 
     break;
   }
   case 18:
