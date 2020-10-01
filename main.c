@@ -76,6 +76,19 @@ void main()
   }
   case 3:
   {
+    const char* arr[] = { "hactober", "coding", "opensource" }; 
+  
+    int n = sizeof(arr) / sizeof(arr[0]); 
+    int i;
+    printf("Given array is\n"); 
+    for (i = 0; i < n; i++) 
+        printf("%d: %s \n", i, arr[i]);  
+    sort(arr, n);
+    printf("\nSorted array is\n"); 
+    for (i = 0; i < n; i++) 
+        printf("%d: %s \n", i, arr[i]); 
+  
+    return 0; 
     break;
   }
   case 4:
