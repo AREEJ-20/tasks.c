@@ -213,6 +213,11 @@ void main()
   }
   case 18:
   {
+    float a,b,c;
+    printf("Enter two floating point numbers: ");
+    scanf("%f%f",&a,&b);
+    c = mul(a,b);
+    printf("%f",c);
     break;
   }
   case 19:
